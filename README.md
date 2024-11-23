@@ -15,8 +15,15 @@ Wolf 359 is a brilliant radio drama that follows the dysfunctional crew of the U
 - 🛡️ Flexible episode range selection to avoid spoilers
 - 🤖 LLM-friendly output format
 
-### ![example pdf](image.png)
-### [Example of asking an LLM to summarize first 3 episodes](https://chatgpt.com/share/6741abb5-a340-8003-bdab-77d2c4ae6956)
+## PDF created for episodes 1-28 
+![example pdf](image.png)
+
+## [Using an LLM to summarize first 3 episodes](https://chatgpt.com/share/6741abb5-a340-8003-bdab-77d2c4ae6956)
+
+## Season 1 podcast summary, created by Google NotebookLM 
+<center><audio controls src="NotebookLM_Season_1_AI_podcast.wav" title="Season 1 podcast summary, created by google NotebookLM"></audio></center>
+
+<br><br>
 
 ```mermaid
 graph TD
