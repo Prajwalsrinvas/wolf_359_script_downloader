@@ -1,0 +1,4 @@
+pdfminer.six==20240706
+PyPDF2==3.0.1
+Requests==2.32.3
+tqdm==4.55.1
