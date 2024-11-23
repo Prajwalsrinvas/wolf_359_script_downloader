@@ -15,7 +15,46 @@ Wolf 359 is a brilliant radio drama that follows the dysfunctional crew of the U
 - 🛡️ Flexible episode range selection to avoid spoilers
 - 🤖 LLM-friendly output format
 
-![example pdf](image.png)
+### ![example pdf](image.png)
+### [Example of asking an LLM to summarize first 3 episodes](https://chatgpt.com/share/6741abb5-a340-8003-bdab-77d2c4ae6956)
+
+```mermaid
+graph TD
+    A[Hephaestus Station Crew] -->|Commander| B[Renée Minkowski]
+    A -->|Communications Officer| C[Doug Eiffel]
+    A -->|Chief Scientist| D[Alexander Hilbert]
+    A -->|AI System| E[Hera]
+
+    B --> F{"Mission Protocol"}
+    F -->|Enforces Rules| G[Minkowski vs Eiffel]
+    G --> H{Conflicts}
+    H --> I[Toothpaste Hostage Incident]
+    H --> J[Daily Protocol Enforcement]
+    J --> K[Physical Examination Day]
+
+    C --> L{Rebellious Acts}
+    L --> M[Hoarding Contraband]
+    L --> N[Ignoring Signals of Authority]
+    N --> O[Plant Monster Incident]
+    
+    D --> P{"Secret Experiments"}
+    P --> Q[Lab Explosion]
+    P --> R[Mysterious Sounds & Fires]
+    R --> S[Potential Threats]
+
+    E --> T{Station Maintenance}
+    T --> U[Power Outages]
+    T --> V[System Failures]
+    U --> W[Hephaestus Vulnerabilities]
+
+    subgraph "Key Events"
+        I --> Z{"Resolution:"}
+        Z --> Z1["Eiffel confined to 'brig'"]
+        O --> Z2["Plant escapes into vents"]
+        Z2 --> X[Station Emergency Declared]
+    end
+
+```
 
 ## Installation
 
