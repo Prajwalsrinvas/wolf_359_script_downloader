@@ -15,6 +15,8 @@ Wolf 359 is a brilliant radio drama that follows the dysfunctional crew of the U
 - 🛡️ Flexible episode range selection to avoid spoilers
 - 🤖 LLM-friendly output format
 
+![example pdf](image.png)
+
 ## Installation
 
 ```bash
