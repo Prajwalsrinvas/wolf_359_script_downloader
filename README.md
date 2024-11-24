@@ -18,7 +18,7 @@ Wolf 359 is a brilliant radio drama that follows the dysfunctional crew of the U
 ### PDF created for episodes 1-28 
 ![example pdf](image.png)
 
-### [Using Claude to summarize and analyze the first season](llm_analysis)
+### [Using Claude to summarize and analyze the first season](llm_analysis/README.md)
 
 <details>
 <summary>Click to view claude prompt and response</summary>
