@@ -1,0 +1,15 @@
+```mermaid
+graph TD
+    Command[Command] -->|Secret Orders| Hilbert
+    Command -->|Hidden Purpose| Station
+    Station -->|Hidden Lab| Experiments
+    Station -->|Box 953| Eiffel
+    Experiments -->|Specimen 34| PlantMonster
+    Experiments -->|Project Decima| Crew
+    Station -->|Radio Signals| Aliens
+    PastMission[Previous Mission] -->|Captain Lovelace| Station
+    PastMission -->|Hidden Lab| Experiments
+    
+    classDef mystery fill:#f9f,stroke:#333,stroke-width:2px;
+    class Aliens,Box953,PastMission mystery;
+```

@@ -1,0 +1,14 @@
+```mermaid
+graph TD
+    Bridge[Bridge] --- Comms[Communications Room]
+    Bridge --- Lab[Main Laboratory]
+    Lab --- Hidden[Hidden Laboratory]
+    Comms --- Store[Storeroom]
+    Store --- Box[Box 953]
+    Bridge --- Life[Life Support]
+    Life --- Green[Greenhouse]
+    Green --- Specimen[Specimen 34]
+    
+    classDef secret fill:#ff9999;
+    class Hidden,Box,Specimen secret;
+```

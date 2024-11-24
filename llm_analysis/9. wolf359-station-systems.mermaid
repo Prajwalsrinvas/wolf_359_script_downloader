@@ -1,0 +1,29 @@
+```mermaid
+flowchart TB
+    subgraph Command_Control
+        Command_Codes-->|Override|Station_Systems
+        Emergency_Protocols-->|Activate|Special_Functions
+    end
+    
+    subgraph Station_Systems
+        Life_Support
+        Communications
+        Security
+        Navigation
+    end
+    
+    subgraph Special_Functions
+        Fire_Control
+        Lockdown
+        Air_Venting
+        Temperature_Control
+    end
+    
+    Hera-->|Controls|Station_Systems
+    Hera-->|Monitors|Special_Functions
+    Hilbert-->|Manipulates|Hera
+    Minkowski-->|Authorizes|Emergency_Protocols
+    
+    classDef compromised fill:#ff6666;
+    class Hera,Command_Codes compromised;
+```

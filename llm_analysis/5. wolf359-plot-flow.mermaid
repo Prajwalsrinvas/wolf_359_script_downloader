@@ -1,0 +1,21 @@
+```mermaid
+flowchart LR
+    Start[Mission Start] --> Radio[Radio Signals]
+    Radio --> Plant[Plant Monster]
+    Plant --> Lab[Hidden Lab]
+    Lab --> Spider[Mutant Spider]
+    Spider --> Messages[Empty Man Messages]
+    Messages --> Contact[Alien Contact]
+    Contact --> Betrayal[Hilbert's Betrayal]
+    
+    subgraph Command_Control[Command's Control]
+        Messages
+        Betrayal
+    end
+    
+    subgraph Station_Secrets[Station Mysteries]
+        Lab
+        Plant
+        Spider
+    end
+```
