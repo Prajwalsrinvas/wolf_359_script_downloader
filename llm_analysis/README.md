@@ -1,4 +1,11 @@
-# Analysis of Season 1, using Claude
+# LLM based Analysis
+
+<details>
+<summary>Click to view claude prompt and response</summary>
+
+![Claude Prompt](0.claude_prompt.png)
+
+</details>
 
 ## Analysis Documents
 - [Part 1: Initial Analysis](1.%20wolf359-analysis-part1.md)
